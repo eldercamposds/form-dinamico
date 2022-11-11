@@ -1,0 +1,42 @@
+body{
+    background: rgb(128, 128, 250);
+    font: normal 3vw Arial;
+    
+}
+h1{
+    font: normal 4vw Arial;
+    color: white;
+    text-align: center;
+}
+.selcity{
+    display: inline-block;
+
+}
+select, input,.campo, #submit{
+    font: normal 1.5vw Arial;
+    border-radius: 18vw;
+    text-align: center;
+    width: 25vw;
+    line-height: 2%;
+    
+
+}
+section{
+    
+    background: white;
+    width: 50vw;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+}
+#res02{
+    display: block;
+}
+
+.divcampo{
+    margin-bottom: 1vw;
+}
+#mensagem{
+    height: 10vw;
+}

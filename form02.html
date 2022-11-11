@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM02</h1>
+<section>
+    <div>
+        <form id="form" action="" method="POST">
+                <div  class="divcampo">
+                    <input class="campo" type="text" placeholder="Nome" required>
+                </div>
+                <div class="divcampo">
+                    <input class="campo" type="tel" name="tel" id="tel" placeholder="Telefone" required>
+                </div>
+                
+                <div class="divcampo">
+                    <input class="campo" type="email" name="email" id="email" placeholder="email" required>
+                </div>
+                <div class="divcampo">
+                    <input class="campo" type="text" name="mensagem" id="mensagem" placeholder="Mensagem" required>
+                </div>
+                <div class="divcampo">
+                    <select class="campo" name="setor" id="selsetor" onchange="setorsel()">
+                        <option value="setor0" selected>Seleciona um setor</option>
+                        <option value="setor01">opção 01</option>
+                        <option value="setor02">opção 02</option>
+                    </select>
+                </div>
+                <div class="divcampo">
+                    <input class="campo" type="submit" value="Enviar" id="submit">
+                </div>
+        </form>
+    </div>
+</section>
+</body>
+<script src="form02.js"></script>
+</html>
