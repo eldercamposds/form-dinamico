@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE FORM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>      
+    <h1>CONTATO</h1>
+    <section>
+        <div class="selcity">
+            <select id="bebida" onchange="bebida()" >
+                <option selected value="vazio">Selecione uma bebida</option>
+                <option value="prav" id="selprav">Pravda</option>
+                <option value="lang" id="sellang">Langley's</option>
+                <option value="stan" id="selstan">Stanislav</option>
+                <option value="hidgar" id="sellang">Hidden Garden</option>
+                <option value="viki" id="sellang">Viking</option>
+                <option value="lang" id="sellang">Black & Bianco</option>
+
+            </select>
+        </div>
+        <div class="selcity">
+            <select id="estados" onchange="estado()" >
+                <option selected value="vazio">Selecione um Estado</option>
+                <option value="bsb" id="selbsb">Brasilia</option>
+                <option value="sp" id="selsp">São Paulo</option>
+                <option value="sc" id="selsc">Santa Catarina</option>
+                <option value="pe" id="selpe">Pernambuco</option>
+                <option value="go" id="selgo">Goiás</option>
+                <option value="mg" id="selmg">Minas Gerais</option>
+                <option value="ba" id="selba">Bahia</option>
+            </select>
+        </div>
+        <div class="selcity">
+            <select id="cidades" onchange="cidadeb()" title="select">
+                <option value="vazio" selected>Selecione uma Cidade</option>
+                
+            </select>
+        </div>
+    </section>
+    <section>
+        <div id="conteudo">
+            <p id = "reg">Selecione uma região</p>
+        </div>
+    </section>
+    
+</body>
+    <script src="form03.js" defer></script>
+</html>
